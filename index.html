@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTP Simulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <h1>OTP Simulator</h1>
+        <h3 id="error-message"></h3>
+        <div class="input-container">
+            <input type="text" name="firstNum" id="firstNum" maxlength="1">
+            <input type="text" name="secondNum" id="secondNum" maxlength="1">
+            <input type="text" name="thirdNum" id="thirdNum" maxlength="1">
+            <input type="text" name="fourthNum" id="fourthNum" maxlength="1">
+            <input type="text" name="fifthNum" id="fifthNum" maxlength="1">
+        </div>
+        <button type="button" id="enter" onclick="checkCode()">Enter</button>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
